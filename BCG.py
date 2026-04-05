@@ -181,7 +181,7 @@ def draw_matrix(stocks: list) -> plt.Figure:
     ax.set_ylim(Y_MIN, Y_MAX)
 
     # ✅ Clarified X-axis label showing share direction
-    ax.set_xlabel("Relative Market Share  (← High share  |  Low share →)", fontsize=9,
+    ax.set_xlabel("Relative Market Share  (←  Low share |  High share →)", fontsize=9,
                   color="#666660", labelpad=10)
     ax.set_ylabel("Market Growth Rate (%)  →", fontsize=9,
                   color="#666660", labelpad=10)
