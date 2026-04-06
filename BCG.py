@@ -232,7 +232,7 @@ with left:
 
     growth = st.slider(
         "Market growth rate (%)",
-        min_value=-10.0, max_value=200.0, value=10.0, step=1.0,
+        min_value=-100.0, max_value=200.0, value=10.0, step=1.0,
         help="Use 3-Year CAGR from Compounded Sales Growth. Threshold: > 10% = High growth."
     )
 
